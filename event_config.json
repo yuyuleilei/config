@@ -38,5 +38,11 @@
   "messageQueue": false,
   "openMonitor": true,
   "logSaveDays": 8,
-  "isOpenTodayStatistic": true
+  "isOpenTodayStatistic": true, 
+  "business": {
+     "userStayTimeScope": {
+         "min": 100,
+         "max": 100000
+      }
+  }
 }
