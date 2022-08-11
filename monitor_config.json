@@ -37,5 +37,12 @@
     },
     "messageQueue": false,
     "openMonitor": true,
-    "logSaveDays": 8
+    "logSaveDays": 8,
+    "business": {
+       "userStayTimeScope": {
+          "min": 100,
+           "max": 100000
+        }
+     }
+
   }
