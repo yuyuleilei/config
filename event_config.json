@@ -3,6 +3,9 @@
     "purchaseCode": "",
     "secretCode": ""
   },
+  "uploadDomain": {
+    "localServerDomain": ""
+  },
   "domain": {
     "localServerDomain": "localhost:8015",
     "localAssetsDomain": "localhost:8014",
