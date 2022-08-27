@@ -34,10 +34,7 @@
     "emailUser": "",
     "emailPassword": ""
   },
-  "httpReqRes": {
-    "requestTextLength": 1000,
-    "responseTextLength": 1000
-  },
+  "protocol": "",
   "messageQueue": false,
   "openMonitor": true,
   "logSaveDays": 8,
