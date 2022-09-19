@@ -1,14 +1,18 @@
 {
-    "purchase": {
-      "purchaseCode": "",
-      "secretCode": ""
-    },
     "domain": {
       "localServerDomain": "localhost:8009",
       "localAssetsDomain": "localhost:8008",
       "localServerPort": "8009",
       "localAssetsPort": "8008",
       "mainDomain": ""
+    },
+    "monitorDomain": {
+      "localServerDomain": "localhost:8011",
+      "localAssetsDomain": "localhost:8010"
+    },
+    "eventDomain": {
+     "localServerDomain": "localhost:8015",
+     "localAssetsDomain": "localhost:8014"
     },
     "mysqlConfig": {
         "write": {
