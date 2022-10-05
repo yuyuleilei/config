@@ -1,0 +1,18 @@
+# 将此yml文件上传服务器，执行启动命令 docker-compose -f ./docker-compose.yml up
+version: '2'
+services:
+  webfunny_monitor:
+    image: webfunny/webfunny_monitor:版本号
+    restart: always
+    container_name: webfunny_monitor
+    volumes:
+      - 应用中心映射目录:/app/center/config_variable/
+      - 监控系统映射目录:/app/monitor/config_variable/
+      - 埋点系统映射目录:/app/event/config_variable/
+    ports:
+      - 8008:8008
+      - 8009:8009
+      - 8010:8010
+      - 8011:8011
+      - 8014:8014
+      - 8015:8015
